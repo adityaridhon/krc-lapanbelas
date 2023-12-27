@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#krc{
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#krc:hover{
+    transform: rotate(360deg);
+    width: 130px;
+}
